@@ -1,0 +1,186 @@
+
+/* 
+    Created on : 27.01.2017, 13:20:47
+    Author     : Glinin.AE
+*/
+
+body {
+    background-image: url('../images/backgrounds/bg_img01.png');
+        font-size: 13px;
+    font-family: Tahoma,"Helvetica Neue",Helvetica,Geneva,Arial,sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#body-wrapper {
+    position: relative;
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+  //  padding: 0 70px;
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+}
+
+#header {
+    position: relative;
+    margin: 0 auto;
+    min-height: 120px;
+}
+
+#logo {
+/*    float: left;
+    margin-top: 45px;
+    color: #333;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2em;*/
+    background-image: url('../images/logo.png');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 20px 0 0px 80px;
+}
+
+.header_orgname {
+    margin-top: 55px;
+    color: #3c80c2;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1.2em;
+}
+
+
+.header_phone {
+    margin-top: 20px;
+}
+
+.phone {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 1;
+    
+}
+
+.org_address {
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 55px;
+    padding: 15px 0 15px 0;
+    box-shadow: 3px 0px 8px -5px rgba(0, 0, 0, 0.26);
+
+}
+
+.menu li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+
+.menu_header {
+    padding: 0 0 5px 15px;
+    color: #3c3c3c;
+    font-weight: bold;
+    font-family: "Tahoma";
+    font-size: 16px;
+}
+
+.menu li a {
+    padding: 15px 10px 15px 50px;
+    display: block;
+    text-decoration: none;   
+}
+
+.menu_img_01 {
+    background-image: url('../images/menu/zbi.png');
+}
+
+.menu_img_02 {
+    background-image: url('../images/menu/beton.png');
+}
+
+.menu_img_03 {
+    background-image: url('../images/menu/raztvor.png');
+}
+
+.menu_img_04 {
+    background-image: url('../images/menu/blok.png');
+}
+
+.menu_img_05 {
+    background-image: url('../images/menu/bruschatka.png');
+    background-position: 0 12px!important;
+}
+
+.menu_img_06 {
+    background-image: url('../images/menu/dostavka.png');
+}
+
+.menu_img_07 {
+    background-image: url('../images/menu/nasos.png');
+}
+
+.menu_img_08 {
+    background-image: url('../images/menu/vesy.png');
+}
+
+.menu_img_09 {
+    background-image: url('../images/menu/vagon.png');
+    background-position: 0 12px!important;
+}
+
+.menu_img_10 {
+    background-image: url('../images/menu/hranenie.png');
+}
+
+/*
+#navigation {
+    margin-top: 40px;
+}
+
+#navigation li {
+    position: relative;
+    float: left;
+}
+
+#navigation > li > a {
+    height: 30px;
+}
+
+#navigation a {
+    position: relative;
+    display: block;
+    margin: 0 0 0 30px;
+    color: #959595;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+ol, ul {
+    list-style: none;
+}*/
+
+/*.container-wrapper {
+    min-width: 980px;
+}*/
+
