@@ -6,7 +6,7 @@
 
 body {
     background-image: url('../images/backgrounds/bg_img01.png');
-        font-size: 13px;
+    font-size: 13px;
     font-family: Tahoma,"Helvetica Neue",Helvetica,Geneva,Arial,sans-serif;
     line-height: 1.5;
 }
@@ -26,17 +26,59 @@ a:link {
 #body-wrapper {
     position: relative;
     background: #fff;
-    width: 1200px;
     margin: 0 auto;
-  //  padding: 0 70px;
-    box-shadow: 0 0 4px rgba(0,0,0,.3);
-    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+    padding: 10px;
+    box-shadow: 10px 10px 35px rgba(0,0,0,.3);
+    -webkit-box-shadow: 10px 10px 35px rgba(0,0,0,.3);
 }
 
 #header {
     position: relative;
     margin: 0 auto;
+    padding-top: 15px;
     min-height: 120px;
+}
+
+.logo-first {
+    background-image: url('../images/logo/logo_01.png');
+    height: 100px;
+    width: 125px;
+    float: left;
+}
+
+.logo-second {
+    background-image: url('../images/logo/logo_02.png');
+    height: 100px;
+    width: 125px;
+    float: left;
+}
+
+.logo-third {
+    background-image: url('../images/logo/logo_03.png');
+    height: 100px;
+    width: 125px;
+    float: left;
+}
+
+.logo-footer-first {
+    background-image: url('../images/logo/logo_footer_01.png');
+    height: 80px;
+    width: 100px;
+    float: left;
+}
+
+.logo-footer-second {
+    background-image: url('../images/logo/logo_footer_02.png');
+    height: 80px;
+    width: 100px;
+    float: left;
+}
+
+.logo-footer-third {
+    background-image: url('../images/logo/logo_footer_03.png');
+    height: 80px;
+    width: 100px;
+    float: left;
 }
 
 #logo {
@@ -65,28 +107,50 @@ a:link {
 
 
 .header_phone {
-    margin-top: 20px;
-}
-
-.phone {
-    margin-top: 50px;
-    font-size: 1.5rem;
-    margin-bottom: 3px;
-    font-weight: bold;
-    line-height: 1;
-    
-}
-
-.org_address {
+    font-family: "Helvetica Neue";
+    padding-right: 50px;
     text-align: right;
+}
+
+.header_phone .callHeader {
+    font-size: 20px;
+}
+
+.header_phone .phonePrefix {
+    font-size: 13px;
+}
+
+.header_phone .phoneNumber {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.content {
+    padding-left: 0px!important;
+}
+
+.labelProduction {
+    background-color: #01212E; height: 30px; color: #fff; text-align: center; font-weight: 500; font-size: 14px; padding-top: 3px; margin-top: 5px;
+}
+
+.leftside_menu {
+    padding-right: 7px!important;
+}
+
+
+
+.slick-dotted.slick-slider {
+    margin-bottom: 10px!important;
+}
+#menu {
+    /*width: 250px;*/
+    /*float: left;*/
 }
 
 .menu {
     list-style: none;
-    margin-top: 55px;
-    padding: 15px 0 15px 0;
+    padding-left: 0px;
     box-shadow: 3px 0px 8px -5px rgba(0, 0, 0, 0.26);
-
 }
 
 .menu li {
@@ -96,11 +160,12 @@ a:link {
 }
 
 .menu_header {
-    padding: 0 0 5px 15px;
-    color: #3c3c3c;
-    font-weight: bold;
-    font-family: "Tahoma";
-    font-size: 16px;
+    padding-top: 3px;
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background-color: #01212E;
 }
 
 .menu li a {
@@ -151,6 +216,54 @@ a:link {
     background-image: url('../images/menu/hranenie.png');
 }
 
+#navigation {
+    background-color: #01212E;
+    margin-bottom: 7px;
+    
+}
+
+#nav {
+    background-color: #01212E;  
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+footer{
+    height: 120px;
+    padding-top: 20px;
+}
+
+.footer_address {
+    border-right: 3px #01212E solid;
+    padding-left: 60px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+}
+
+.footer_contacts {
+    padding-top: 7px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+}
 /*
 #navigation {
     margin-top: 40px;
